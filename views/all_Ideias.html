@@ -1,5 +1,7 @@
 {%  for ideia in ideias  %}
+
 <div class="ideia">
+    
     <img src="{{ideia.image}}" alt="Imagem de {{ideia.title}}">
 
     <div class="content">
@@ -9,6 +11,8 @@
             {{ideia.description}}
         </div>
         <a href="{{ideia.link}}" target="_blank">Ir para a ideia</a>
+        <!-- Aqui o evento onlick está mandando como parametro o id da ideia para que possa ser feita a exclusão-->
+        <button onclick="onOffConfirm({{ideia.id}})"><img src="/trash.svg" alt=""></button>
     </div>
 </div>
 {% endfor %}

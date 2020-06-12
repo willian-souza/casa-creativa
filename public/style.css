@@ -126,6 +126,19 @@ footer a{
     opacity: 0.8;
 }
 
+#last-ideias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#last-ideias .ideia{
+    width: 100%;
+    max-width: 500px;
+}
+
 .ideia{
     display: flex;
 
@@ -156,6 +169,20 @@ footer a{
 
 .ideia .description{
     margin: 16px 0;
+}
+
+.ideia{
+    position: relative;
+}
+
+.ideia .content button{
+    position: absolute;
+    right: 0;
+}
+
+.ideia .content button img{
+    width: 30px;
+    height: 30px;
 }
 
 #modal{
@@ -203,6 +230,8 @@ footer a{
     gap: 20px;
 
 }
+
+
 
 .content form div:nth-child(3),
 .content form div:nth-child(4),
@@ -361,4 +390,150 @@ section#title,
 section#ideias,
 footer{
     margin-top: 64px;
+}
+
+
+/* MODAL CONFIRMAÇÃO EXCLUSAO DE ITEM */
+#modal-confirm-del.hideModalConfirm{
+    display: none;
+}
+
+#modal-confirm-del{
+    padding: 10px;
+    background-color: #ff5e84;
+    width: 50%;
+    height: 180px;
+    position: fixed; 
+    top: 25%;
+    left: 25%;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+#modal-confirm-del .content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#modal-confirm-del img{
+    width: 150px;
+    height: 40px;
+}
+
+#modal-confirm-del .button-wraper{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#modal-confirm-del button{
+    background-color: white;
+
+    width: 150px;
+    height: 40px;
+
+
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+#modal-confirm-del button:hover{
+    text-decoration: none;
+    background-color: #0984e3;
+    color: white;
+}
+
+/* PAGINA DE CONFIRMAÇÃO DE EXCLUSÃO/ADICAO DE ITEM */
+.confirm{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #ff5e84;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.confirm img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+/*------------------- Media Queries---------------- */
+
+@media (max-width: 768px){
+    #container{
+        display: block;
+    }
+
+    #container #intro{
+        margin: 0 auto;
+    }
+
+    #page-ideias section#ideias{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #container{
+        position: relative;
+    }
+
+    #container #intro footer{
+        text-align: center;
+        position: absolute;
+        bottom: -50px;
+        width: 100%;
+        left: 0;
+    }
+}
+
+
+@media (max-width: 600px){
+    #page-ideias header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page-ideias header nav{
+        margin-top: 30px;
+    }
+
+    #container #last-ideias .ideia{
+        width: 90%;
+    }
+ 
+}
+
+@media (max-width: 400px){
+    #modal form{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        
+    }     
+   
+    #modal form a{
+        margin-top: 20px;
+        align-self: center;
+    }
+   
 }

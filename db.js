@@ -56,16 +56,6 @@ db.serialize(function(){
 
         console.log(rows)
     }) */
-          
-    
-
-
-    
-
-
-
-
-
 })
 
 module.exports = db

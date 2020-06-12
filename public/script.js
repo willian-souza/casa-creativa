@@ -42,3 +42,18 @@ function checkFields(event){
     }
     
 }
+
+
+
+function onOffConfirm(id){
+    document   
+        .querySelector("#modal-confirm-del")
+        .classList
+        .toggle("hideModalConfirm")
+
+    //Setando,no href do botao, o ID da ideia que será excluida. Para que o mesmo possa acessar a rota de exclusão 
+    document
+        .querySelector("#modal-confirm-del a")
+        .setAttribute("href",`/del/${id}`)
+}
+
