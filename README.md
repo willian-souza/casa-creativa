@@ -23,7 +23,6 @@ Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**. Porém adicionei m
 - Criação do modal que pede a confirmação do usuário para a exclusão de um registro.
 - Aplicação da responsividade em todas as telas do sistema
 
-
 ---
 
 # 🖥 Tecnologias utilizadas
