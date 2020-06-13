@@ -15,8 +15,14 @@
 
 # 📄 Sobre
 
-O projeto **Casa Criativa** é um sistema onde podemos cadastrar várias ideias de atividades que podem ser feitas nesse período de quarentena.<br>
-Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**
+O projeto **Casa Criativa** é um sistema onde podemos cadastrar várias ideias de atividades que podem ser feitas nesse período de quarentena com o intuito de tornar esse momento mais interessante.<br>
+Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**. Porém adicionei mais funcionalidades:
+- Adição do campo de upload de imagem ao invés do envio da url.
+- Criação do botão e a funcionalidade de excluir um registro.
+- Criação das telas de confirmação de adição e exclusão de um registro.
+- Criação do modal que pede a confirmação do usuário para a exclusão de um registro.
+- Aplicação da responsividade em todas as telas do sistema
+
 
 ---
 
@@ -34,7 +40,7 @@ Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**
 ---
 
 # ✍ Conhecimentos adquiridos
-- Upload de imagem através do módulo Multer do NodeJS.
+- Utilização do módulo Multer do NodeJS para armazenamento de imagens.
 - Exclusão de dados do banco após confirmação do usuário
 ---
 
