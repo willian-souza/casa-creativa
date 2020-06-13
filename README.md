@@ -7,20 +7,20 @@
 <h1>
 
 
-# 📋 Índice
+# 📋  Índice
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Conhecimentos adquiridos](#-conhecimentos-adquiridos)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 
-# 📄 Sobre
+# 📄  Sobre
 
 O projeto **Casa Criativa** é um sistema onde podemos cadastrar várias ideias de atividades que podem ser feitas nesse período de quarentena.<br>
 Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**
 
 ---
 
-# 🖥 Tecnologias utilizadas
+# 🖥  Tecnologias utilizadas
 ## Front-End
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
@@ -33,12 +33,12 @@ Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 ---
 
-# ✍ Conhecimentos adquiridos
+# ✍  Conhecimentos adquiridos
 - Upload de imagem através do módulo Multer do NodeJS.
 - Exclusão de dados do banco após confirmação do usuário
 ---
 
-# 📦 Como baixar o projeto
+# 📦  Como baixar o projeto
 ```bash
 
     # Clonar o repositório
