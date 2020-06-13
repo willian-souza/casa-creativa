@@ -6,6 +6,9 @@
     <img src="public/casa.gif">
 <h1>
 
+<h1 align = "center">
+    <img src="https://www.code-inspector.com/project/9412/score/svg">
+<h1>
 
 # 📋 Índice
 - [Sobre](#-sobre)
