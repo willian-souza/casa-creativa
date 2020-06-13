@@ -7,9 +7,10 @@
 <h1>
 
 <h1 align = "center">
-    <img src="https://www.code-inspector.com/project/9412/score/svg">
+    <a href="https://frontend.code-inspector.com/public/project/9412/casa-criativa/dashboard" target="_blank"> 
+        <img src="https://www.code-inspector.com/project/9412/score/svg"> 
+    </a>
 <h1>
-
 # 📋 Índice
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
