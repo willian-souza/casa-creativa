@@ -7,8 +7,14 @@
 <h1>
 
 <h1 align = "center">
-    <a href="https://frontend.code-inspector.com/public/project/9412/casa-criativa/dashboard" target="_blank"> 
-        <img src="https://www.code-inspector.com/project/9412/score/svg"> 
+    <a href="https://www.linkedin.com/in/willian-ssouza/">
+        <img src="https://img.shields.io/badge/made%20by-Willian%20Souza-orange">
+    </a>
+    <a href="https://github.com/willian-souza/rocketseat-site/blob/master/LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-orange">
+    </a>    
+    <a href="https://frontend.code-inspector.com/public/project/9412/casa-criativa/dashboard">
+        <img src="https://img.shields.io/badge/Code%20Quality%20Score-100-orange">
     </a>
 <h1>
 
@@ -17,6 +23,9 @@
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Conhecimentos adquiridos](#-conhecimentos-adquiridos)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Licença](#-licença)
+
+---
 
 # 📄 Sobre
 
@@ -41,14 +50,19 @@ Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**. Porém adicionei m
 - [NodeJS/ExpressJS](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdu%C3%A7%C3%A3o)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
+
 ---
 
 # ✍ Conhecimentos adquiridos
 - Utilização do módulo Multer do NodeJS para armazenamento de imagens.
 - Exclusão de dados do banco após confirmação do usuário
+
 ---
 
 # 📦 Como baixar o projeto
+
+OBS: Para realizar os procedimentos abaixo é necessário ter o [Git](https://git-scm.com/downloads) e o [Node](https://nodejs.org/en/download/) instalados na máquina.
+
 ```bash
 
     # Clonar o repositório
@@ -66,4 +80,9 @@ Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**. Porém adicionei m
 ```
 ---
 
-Desenvolvido 🤓 por [Willian dos Santos Souza](https://www.linkedin.com/in/willian-dos-santos-souza-83348261/)
+# 📝Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+
+---
+
+Desenvolvido por [Willian dos Santos Souza](https://www.linkedin.com/in/willian-ssouza/)
