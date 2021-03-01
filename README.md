@@ -18,71 +18,87 @@
     </a>
 <h1>
 
-# 📋 Índice
-- [Sobre](#-sobre)
-- [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Conhecimentos adquiridos](#-conhecimentos-adquiridos)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
-- [Licença](#-licença)
+# 📋 Index
+- [About](#-about)
+- [Technologies used](#-technologies-used)
+- [Download and run the project ](#-download-and-run-the-project)
+- [License](#-license)
 
 ---
 
-# 📄 Sobre
+# 📄 About
 
-O projeto **Casa Criativa** é um sistema onde podemos cadastrar várias ideias de atividades que podem ser feitas nesse período de quarentena com o intuito de tornar esse momento mais interessante.<br>
-Foi desenvolvido durante o **WorkshopDev** da **Rocketseat**. Porém adicionei mais funcionalidades:
-- Adição do campo de upload de imagem ao invés do envio da url.
-- Criação do botão e a funcionalidade de excluir um registro.
-- Criação das telas de confirmação de adição e exclusão de um registro.
-- Criação do modal que pede a confirmação do usuário para a exclusão de um registro.
-- Aplicação da responsividade em todas as telas do sistema
+The project **Casa Criativa** is a web application where we can register several ideas of activities that can be done in moments of confinement, for example.<br>To register an ideia, we inform a title, a category(film, series, HQ, course, etc), select an image for the idea, put a brief description and add a link that will lead to that idea on the internet.
+
+If any information in the registration is incorrect, it is possible to delete the idea and register again(the possibility of editing has not been implemented)
+
+It was developed during **Rocketseat's WorkshopDev**. However, i added some features:
+- Addition of the image upload field.
+- Deleting and idea.
+- Confirmation screens for adding and deleting an idea.
+- Confirmation before deleting an idea.
+- Responsiveness application.
 
 ---
 
-# 🖥 Tecnologias utilizadas
+# 🖥 Technologies used
 ## Front-End
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 
 ## Back-End
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 - [NodeJS/ExpressJS](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdu%C3%A7%C3%A3o)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 ---
 
-# ✍ Conhecimentos adquiridos
-- Utilização do módulo Multer do NodeJS para armazenamento de imagens.
-- Exclusão de dados do banco após confirmação do usuário
 
----
+# 📦 Download and run the project
 
-# 📦 Como baixar o projeto
+Note: To perform the procedures below on your terminal it is necessary to have [Git](https://git-scm.com/downloads) and [NodeJS](https://nodejs.org/en/) or [Yarn](https://yarnpkg.com/)  installed on the machine.
 
-OBS: Para realizar os procedimentos abaixo é necessário ter o [Git](https://git-scm.com/downloads) e o [Node](https://nodejs.org/en/download/) instalados na máquina.
-
+### - With npm
 ```bash
 
-    # Clonar o repositório
+    # Clone the repository
     $ git clone https://github.com/willian-souza/casa-criativa
 
-    # Entrar no diretório baixado
+    # Enter the downloaded directory
     $ cd casa-criativa
 
-    # Instalar as dependências        
+    # Install all dependencies        
     $ npm install 
 
-    # Iniciar o projeto
-    $ npm start 
+    # Run the application
+    $ npm run dev
 
 ```
+### - With yarn
+```bash
+
+    # Clone the repository
+    $ git clone https://github.com/willian-souza/casa-criativa
+
+    # Enter the downloaded directory
+    $ cd casa-criativa
+
+    # Install all dependencies        
+    $ yarn
+
+    # Run the application
+    $ yarn dev
+
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
 ---
 
-# 📝Licença
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+# 📝License
+This project is under license MIT. See the archive [LICENSE](/LICENSE) for more details.
 
 ---
 
-Desenvolvido por [Willian dos Santos Souza](https://www.linkedin.com/in/willian-ssouza/)
+Developed by [Willian dos Santos Souza](https://www.linkedin.com/in/willian-ssouza/)
